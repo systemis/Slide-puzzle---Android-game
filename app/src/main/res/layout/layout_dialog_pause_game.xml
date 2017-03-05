@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    >
+
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_corner_buttons"
+        android:textColor="#fff"
+        android:text="New Game"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_g_newgame"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_corner_buttons"
+        android:textColor="#fff"
+        android:text="About Game"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_g_aboutgame"
+        />
+
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_corner_buttons"
+        android:textColor="#fff"
+        android:text="Done"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button_g_done"
+        />
+
+
+
+</LinearLayout>

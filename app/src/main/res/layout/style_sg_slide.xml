@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ImageView_eg_sg_main_slide_show"
+        />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/chieurong_slide"
+            android:layout_height="@dimen/chieucao_slide"
+            android:id="@+id/button_eg_sg_slide"
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"
+            android:background="@drawable/custom_border_slides"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/chieurong_slide"
+            android:layout_height="@dimen/chieucao_slide"
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"
+            android:background="@drawable/custom_border_slides"
+            />
+
+
+        <ImageView
+            android:layout_width="@dimen/chieurong_slide"
+            android:layout_height="@dimen/chieucao_slide"
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"
+            android:background="@drawable/custom_border_slides"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/chieurong_slide"
+            android:layout_height="@dimen/chieucao_slide"
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"
+            android:background="@drawable/custom_border_slides"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/chieurong_slide"
+            android:layout_height="@dimen/chieucao_slide"
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"
+            android:background="@drawable/custom_border_slides"
+            />
+
+
+        <ImageView
+            android:layout_width="@dimen/chieurong_slide"
+            android:layout_height="@dimen/chieucao_slide"
+            android:scaleType="fitXY"
+            android:layout_margin="2dp"
+            android:background="@drawable/custom_border_slides"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:layout_margin="10dp"
+        android:id="@+id/show_mainslides_sg_example"
+        />
+
+
+
+</RelativeLayout>

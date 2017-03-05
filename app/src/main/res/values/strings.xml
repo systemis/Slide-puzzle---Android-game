@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SlidePuzzle_Game</string>
+    <string name="dialog_start_title">What do you choose main slide to play ?</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickpham.slidepuzzle_game.MainActivity"
+    android:background="#000">
+
+
+    <include layout="@layout/toolbar_game_play"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#d8848484"
+        android:id="@+id/Location_main_layout_slide"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_layout_slide"
+            android:layout_centerInParent="true"
+            android:background="#d8848484"
+            android:orientation="vertical"
+            >
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_start_game_example"
+        android:layout_centerInParent="true"
+        android:src="@android:drawable/ic_media_play"
+        android:onClick="Start_Game"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Location_main_layout_slide"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/Size_Button_Slide_Board"
+            android:layout_height="@dimen/Size_Button_Slide_Board"
+            android:layout_marginTop="20dp"
+            android:onClick="Action_Random_Slides"
+            android:src="@mipmap/random_icon"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/Size_Button_Slide_Board"
+            android:layout_height="@dimen/Size_Button_Slide_Board"
+            android:layout_marginTop="20dp"
+            android:onClick="Action_On_Of_Background_Music"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/volume_off_icon"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/Size_Button_Slide_Board"
+            android:layout_height="@dimen/Size_Button_Slide_Board"
+            android:layout_marginTop="20dp"
+            android:onClick="Show_Main_Slide"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/eye"
+            android:id="@+id/Show_Main_Slide_Button"
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

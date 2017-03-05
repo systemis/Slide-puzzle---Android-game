@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="chieurong_slide">130dp</dimen>
+    <dimen name="chieucao_slide">150dp</dimen>
+
+    <dimen name="Margin_Toolbar_Time_Move">120dp</dimen>
+
+
+</resources>
